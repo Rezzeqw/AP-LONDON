@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montenegrin Gothic One", serif;
+    font-weight: 400;
+    font-style: normal;
+    gap: 20px;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #a91c28;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.login-btn {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.content {
+    max-width: 500px;
+}
+
+h1 {
+    font-size: 60px;
+    line-height: 1.2;
+}
+
+.explore-btn {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 140px;
+    cursor: pointer;
+}
+
+.image-container img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid rgba(255, 255, 255, 0.1);
+}
