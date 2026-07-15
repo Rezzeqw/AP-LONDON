@@ -1,34 +1,74 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bungee&family=Fjalla+One&family=Montenegrin+Gothic+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eat & Brisk - Fine Dining</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo"><img src="logo.svg" alt="EATURKISH"></div>
-        <nav>
-            <a href="#">Menu</a>
-            <a href="#">News</a>
-            <a href="#">About Us</a>
-            <a href="#">Contact Us</a>
-            <button class="login-btn">Log In</button>
+        <nav class="navbar">
+            <div class="logo">EAT&BRISK</div>
+            <ul class="nav-menu">
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#" class="login-btn">Log in</a></li>
+            </ul>
         </nav>
     </header>
 
-    <main class="hero">
-        <div class="content">
-            <p class="tag">Chase The New Flavour</p>
+    <section class="hero">
+        <div class="hero-content">
+            <p class="tagline">Chase The New Flavour</p>
             <h1>The Key To Fine Dining</h1>
-            <p class="description">Sit tellus lobortis sed senectus vivamus molestie. Condimentum volutpat morbi facilisis quam scelerisque sapien. Et, penatibus aliquam amet tellus</p>
-            <button class="explore-btn">Explore Menu</button>
+            <p class="description">Sit amet consectetur adipisicing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+            <button class="cta-btn">Explore Menu</button>
         </div>
-        <div class="image-container">
-            
-            <img src="klipartz 2.svg" alt="Fine Dining">
+        <div class="hero-image">
+            <img src="hero-food.jpg" alt="Delicious grilled meat dish">
         </div>
-    </main>
+        <div class="scroll-indicator">
+            <span>SCROLL</span>
+        </div>
+    </section>
+
+    <section class="popular-dishes">
+        <div class="container">
+            <h2>Popular Dishes</h2>
+            <div class="dishes-grid">
+                <div class="dish-card">
+                    <img src="dish1.jpg" alt="Barbecue Shish Kebab">
+                    <h3>Barbecue Shish Kebab Shashlik Skewer</h3>
+                    <div class="rating">★★★★☆</div>
+                    <p class="price">$12.00</p>
+                </div>
+                <div class="dish-card">
+                    <img src="dish2.jpg" alt="Pizza">
+                    <h3>Barbecue Shish Kebab Shashlik Skewer</h3>
+                    <div class="rating">★★★★☆</div>
+                    <p class="price">$12.00</p>
+                </div>
+                <div class="dish-card">
+                    <img src="dish3.jpg" alt="Burger">
+                    <h3>Barbecue Shish Kebab Shashlik Skewer</h3>
+                    <div class="rating">★★★★☆</div>
+                    <p class="price">$12.00</p>
+                </div>
+                <div class="dish-card">
+                    <img src="dish4.jpg" alt="Platter">
+                    <h3>Barbecue Shish Kebab Shashlik Skewer</h3>
+                    <div class="rating">★★★★☆</div>
+                    <p class="price">$12.00</p>
+                </div>
+            </div>
+            <div class="navigation-arrows">
+                <button class="arrow left">‹</button>
+                <button class="arrow right">›</button>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
