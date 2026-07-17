@@ -36,13 +36,14 @@ nav a {
     align-items: flex-start;
 }
 .sidebar {
-    width: 280px;
-    height: 500px;
+    width: 1521px;
+    height: 147px;
     background: #be1e2d;
     padding: 25px;
     border-radius: 15px;
     color: white;
-    gap: 3px;
+    gap: 25px;
+    margin-top: 20px;
 }
 .products {
     display: grid;
@@ -57,12 +58,14 @@ nav a {
     text-align: center;
 }
 .btn67{
-    width: 17px;
-    height: 30px;
-    color: white;
-    font-size: 3px;
+    width: 150px;
+    height: 50px;
+    color: black;
+    font-size: 10px;
     font-weight: 600;
     border: 2px solid white;
+    border-radius: 20px;
+
 }
 
 .footer{
@@ -165,4 +168,96 @@ nav a {
 .copyright{
     margin-top:60px;
     text-align:center;
+}
+.footer-section {
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.instagram-content {
+    max-width: 400px;
+    margin-bottom: 40px;
+}
+
+.instagram-label {
+    display: block;
+    font-size: 14px;
+    color: #c41e3a;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.instagram-title {
+    font-size: 32px;
+    color: #111;
+    margin: 0 0 15px;
+    font-weight: 600;
+}
+
+.instagram-text {
+    font-size: 15px;
+    color: #666;
+    line-height: 1.6;
+    margin: 0 0 25px;
+}
+
+.view-more-btn {
+    padding: 12px 30px;
+    background: transparent;
+    border: 2px solid #111;
+    color: #111;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.view-more-btn:hover {
+    background: #111;
+    color: #fff;
+}
+
+.instagram-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.instagram-item {
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+    aspect-ratio: 1;
+}
+
+.instagram-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.instagram-item:hover img {
+    transform: scale(1.1);
+}
+
+.instagram-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.instagram-item:hover .instagram-icon {
+    opacity: 1;
 }
