@@ -3,3 +3,166 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    margin: 0;
+    font-family: sans-serif;
+
+}
+header {
+    display: flex;
+        background-color: #a91c28;
+    color: white;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.login-btn {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+.sidebar {
+    width: 280px;
+    height: 500px;
+    background: #be1e2d;
+    padding: 25px;
+    border-radius: 15px;
+    color: white;
+    gap: 3px;
+}
+.products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+}
+
+.card {
+    border: 1px solid #eee;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+}
+.btn67{
+    width: 17px;
+    height: 30px;
+    color: white;
+    font-size: 3px;
+    font-weight: 600;
+    border: 2px solid white;
+}
+
+.footer{
+    background:#bd1f34;
+    color:#fff;
+    padding:220px 80px 40px;
+    position:relative;
+    margin-top: 250px;
+}
+
+.newsletter{
+    width:70%;
+    margin:auto;
+    background:#bd1f34;
+    border-radius:15px;
+    text-align:center;
+    padding:50px;
+    position:absolute;
+    left:50%;
+    transform:translateX(-50%);
+    top:-120px;
+    box-shadow:0 15px 30px rgba(0,0,0,.2);
+}
+
+.newsletter h2{
+    font-size:42px;
+    margin:15px 0;
+}
+
+.newsletter .small{
+    font-weight:bold;
+}
+
+.subscribe{
+    margin-top:30px;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+}
+
+.subscribe input{
+    width:500px;
+    height:50px;
+    border:1px solid #fff;
+    background:transparent;
+    color:#fff;
+    border-radius:30px;
+    padding:0 20px;
+}
+
+.subscribe input::placeholder{
+    color:#fff;
+}
+
+.subscribe button{
+    width:140px;
+    border:none;
+    border-radius:30px;
+    background:#fff;
+    color:#bd1f34;
+    cursor:pointer;
+    font-weight:bold;
+}
+
+.footer-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:flex-start;
+    margin-top:80px;
+    text-align:center;
+}
+
+.box{
+    width:30%;
+}
+
+.box h3{
+    font-size:32px;
+    margin-bottom:20px;
+}
+
+.box p{
+    margin:10px 0;
+    line-height:1.6;
+}
+
+.center h2{
+    font-size:40px;
+    margin-bottom:20px;
+}
+
+.social{
+    margin-top:25px;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+    font-size:22px;
+}
+
+.copyright{
+    margin-top:60px;
+    text-align:center;
+}
